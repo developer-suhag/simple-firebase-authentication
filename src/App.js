@@ -5,7 +5,7 @@ import {
   GithubAuthProvider,
   signOut,
 } from "firebase/auth";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import initializeAuthentication from "./Firebase/firebase.initialize";
 
